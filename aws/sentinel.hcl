@@ -131,7 +131,7 @@ policy "restrict-sagemaker-notebooks" {
 
 policy "restrict-subnet-of-ec2-instances" {
   source = "./restrict-subnet-of-ec2-instances.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "validate-providers-from-desired-regions" {
